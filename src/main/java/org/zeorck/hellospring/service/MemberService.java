@@ -1,13 +1,11 @@
 package org.zeorck.hellospring.service;
 
-import org.springframework.stereotype.Service;
 import org.zeorck.hellospring.domain.Member;
 import org.zeorck.hellospring.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
     
     private final MemberRepository memberRepository;
